@@ -1,7 +1,7 @@
 To run  
 cd to celerytask then
 
-run celery with:   
+run celery with:  
 celery -A celerytask worker --loglevel=info -P eventlet  
 
 run django with:   
@@ -15,7 +15,8 @@ Database details
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost',
-        'PORT': '5432',  
+        'PORT': '5432',    
+
 celery details  
 CELERY_BROKER_URL = 'redis://localhost:6379'  
 
